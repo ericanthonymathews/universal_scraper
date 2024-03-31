@@ -16,7 +16,10 @@ function App() {
   return (
     <>
       <Navigation isLoaded={isLoaded} />
-      <h1>hello worlds</h1>
+      <h1>
+        TODOS: set up api's for scraping, set up search feature, set up graphing
+        apis
+      </h1>
       {isLoaded && (
         <Switch>
           <Route path="/login">
